@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Zespoły ratownicze</title>
+        <link rel="stylesheet" href="styl3.css">
+    </head>
+    <body>
+        <header>
+            <div id="b_lewy">
+                <h2>Dodanie zespołu ratowniczego</h2>
+            </div>
+
+            <div id="b_srodkowy">
+                <a>Kontakt:</a><br>
+                <a>022 222 11 333</a>
+            </div>
+
+            <div id="b_prawy">
+                <img src="obraz.jpg" alt="Ratownicy">
+            </div>
+        </header>
+
+        <main>
+            <div id="main">
+                <h3>Dodaj nowy zespół</h3>
+
+                <form action="dodanie.php" method="post">
+                    <label>Numer karetki:</label><br>
+                        <input type="number" name="numer"><br>
+                    
+                    <label>Imie i nazwisko pierwszego ratownika:</label><br>
+                        <input type="text" name="pierwszy"><br>
+                    
+                    <label>Imie i nazwisko pierwszego ratownika:</label><br>
+                        <input type="text" name="drugi"><br>
+                    
+                    <label>Imie i nazwisko pierwszego ratownika:</label><br>
+                        <input type="text" name="trzeci"><br>
+
+                    <button type="reset">CZYŚĆ</button>
+                    <button type="submit">DODAJ</button>
+
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="s_lewy">
+                <p><a href="EE09-17.01A03.txt" id="odn">Zobacz kwerendy</a></p>
+            </div>
+
+            <div id="s_srodkowy">
+                <h5>Przypominamy numery alarmowe</h5>
+
+                <ol>
+                    <li>112</li>
+                    <li>999</li>
+                </ol>
+            </div>
+
+            <div id="s_prawy">
+                <p>
+                    <a>Autor</a><br>
+                    <a>00000000</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

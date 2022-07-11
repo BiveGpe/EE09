@@ -1,0 +1,70 @@
+#b_lewy, #b_prawy
+{
+    width: 25%;
+    height: 200px;
+}
+
+#b_srodkowy
+{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    font-size: 250%;
+}
+
+main
+{
+    background-color: rgb(0,0,128);
+    padding: 60px;
+    text-transform: uppercase;
+}
+
+#s_lewy
+{
+    text-align: center;
+    width: 50%;
+}
+
+#s_prawy
+{
+    text-align: right;
+    width: 50%;
+    padding-top: 100px;
+}
+
+body
+{
+    font-family: Garamond;
+    background-color: rgb(30, 144, 255);
+    color: white;
+}
+
+p
+{
+    padding: 20px;
+    font-size: 200%;
+    border: 1px solid rgb(192, 192, 192);
+}
+
+p:hover
+{
+    background-color: rgb(192, 192, 192);
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th
+{
+    border: 1px solid rgb(192, 192, 192);
+    padding: 10px;
+}
+
+header, footer
+{
+    display: flex;
+    flex-direction: row;
+}

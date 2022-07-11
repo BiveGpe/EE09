@@ -1,0 +1,49 @@
+body
+{
+    font-family: georgia;
+}
+
+#baner
+{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#glowny
+{
+    background-color: lightblue;
+    padding: 100px;
+}
+
+#lewy
+{
+    background-color: dodgerblue;
+    color: white;
+    width: 20%;
+    height: 220px;
+}
+
+#srodkowy, #prawy
+{
+    background-color: dodgerblue;
+    color: white;
+    width: 40%;
+    height: 220px;
+    text-align: center;
+}
+
+#odnosnik
+{
+    border: 1px dashed dimgray;
+    background-color: gold;
+    color: darkred;
+    padding: 10px;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: row;
+}
